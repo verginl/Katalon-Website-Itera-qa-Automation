@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create succes empty email</description>
+   <name>TC_039_SuccessEmptyEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4f403138-f0a8-464d-9df0-0435fdfaec56</testCaseGuid>
+</TestCaseEntity>

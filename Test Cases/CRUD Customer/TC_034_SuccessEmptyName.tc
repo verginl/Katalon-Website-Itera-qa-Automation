@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create success empty name</description>
+   <name>TC_034_SuccessEmptyName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>317d1691-dc79-47b3-9f46-cf35210bf315</testCaseGuid>
+</TestCaseEntity>

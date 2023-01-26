@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Empty Username</description>
+   <name>TC_015_FailEmptyUsername</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8202c89-5c91-4d23-8481-d886f1d48ca2</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Normal Input</description>
+   <name>TC_001_SuccessSignUp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d088a87-a54c-4d81-8d9f-4c4968368d10</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login Fail username &amp; password empty</description>
+   <name>TC_014_FailBlankField</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>afe1e2c6-d120-4aa5-9b03-3a7bf9ea8a9a</testCaseGuid>
+</TestCaseEntity>

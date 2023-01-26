@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Valid Username &amp; Password with UPPERCASE</description>
+   <name>TC_013_LoginSuccess</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4468ae01-85db-451c-88df-f34cd43f88e4</testCaseGuid>
+</TestCaseEntity>

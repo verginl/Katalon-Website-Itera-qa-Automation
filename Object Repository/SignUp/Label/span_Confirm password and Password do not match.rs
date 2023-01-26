@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Confirm password and Password do not match</name>
+   <tag></tag>
+   <elementGuidId>ddda4f10-1241-4949-8f47-4d90b93970a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='ConfirmPassword-error']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ConfirmPassword-error</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7f4e8ed8-568f-4f29-8681-9fba8829b815</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ConfirmPassword-error</value>
+      <webElementGuid>94412501-4a2c-439a-9183-5b1286ef83a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>'Confirm password' and 'Password' do not match.</value>
+      <webElementGuid>78258685-e743-43a8-a2d9-d275793b0c3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ConfirmPassword-error&quot;)</value>
+      <webElementGuid>ab278027-6aa3-43ff-b355-1f4e22ac7e84</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='ConfirmPassword-error']</value>
+      <webElementGuid>dfaf1455-b306-4aad-ab52-a81109441a77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm password'])[1]/following::span[2]</value>
+      <webElementGuid>110b555a-3268-4ed8-9d41-ee22de2bdd00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::span[3]</value>
+      <webElementGuid>434e482d-3569-4925-976b-ddb947e6c124</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::span[1]</value>
+      <webElementGuid>3a80002a-ec75-4ff8-89e4-0f587064c06d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::span[2]</value>
+      <webElementGuid>6d79f984-0d02-4ba3-b80f-11debedb7a0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span</value>
+      <webElementGuid>735b411f-e3ed-41fd-82a9-2f8ff2e70e41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'ConfirmPassword-error' and (text() = concat(&quot;'&quot; , &quot;Confirm password&quot; , &quot;'&quot; , &quot; and &quot; , &quot;'&quot; , &quot;Password&quot; , &quot;'&quot; , &quot; do not match.&quot;) or . = concat(&quot;'&quot; , &quot;Confirm password&quot; , &quot;'&quot; , &quot; and &quot; , &quot;'&quot; , &quot;Password&quot; , &quot;'&quot; , &quot; do not match.&quot;))]</value>
+      <webElementGuid>28a0e679-a38d-4918-a5eb-e3b5d7babba7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

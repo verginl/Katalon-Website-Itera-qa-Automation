@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create succes empty company</description>
+   <name>TC_035_SuccessEmptyCompany</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f78da36b-4429-4e59-8aa0-857aded5a54b</testCaseGuid>
+</TestCaseEntity>

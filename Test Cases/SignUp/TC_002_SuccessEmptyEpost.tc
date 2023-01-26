@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Empty E-post</description>
+   <name>TC_002_SuccessEmptyEpost</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3bfa610-08c5-44d7-9377-14d1a12a3001</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Craete success empty city</description>
+   <name>TC_037_SuccessEmptyCity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cbdf3a6d-5b6b-4873-83ba-d08a6aa16f36</testCaseGuid>
+</TestCaseEntity>
