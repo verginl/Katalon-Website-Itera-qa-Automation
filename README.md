@@ -6,3 +6,9 @@ Test Case : https://docs.google.com/spreadsheets/d/1J8EHOlQJ6KU5qrwiYP-jYvDAeLyt
 
 Automation Used:<br>
 *Katalon<br>
+
+Features :<br>
+*Sign Up
+*Login & Logout
+*Dashboard
+*Customer CRUD
