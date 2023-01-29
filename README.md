@@ -8,7 +8,7 @@ Automation Used:<br>
 *Katalon<br>
 
 Features :<br>
-*Sign Up
-*Login & Logout
-*Dashboard
+*Sign Up <br>
+*Login & Logout<br>
+*Dashboard<br>
 *Customer CRUD
