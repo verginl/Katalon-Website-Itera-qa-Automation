@@ -22,13 +22,13 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://itera-qa.azurewebsites.net/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.click(findTestObject('Object Repository/HomePage/a_Login'))
 
-WebUI.setText(findTestObject('PageLogin/txtUsername'), 'verginardian')
+WebUI.setText(findTestObject('PageLogin/txtUsername'), GlobalVariable.username)
 
-WebUI.setEncryptedText(findTestObject('PageLogin/txtPassword'), 'Uq7bN5AjeDsbX1dGBtIf4A==')
+WebUI.setText(findTestObject('PageLogin/txtPassword'), GlobalVariable.password)
 
 WebUI.click(findTestObject('PageLogin/btnLogin'))
 

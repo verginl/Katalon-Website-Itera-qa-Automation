@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://itera-qa.azurewebsites.net/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.click(findTestObject('Object Repository/HomePage/a_Login'))
 
-WebUI.setText(findTestObject('PageLogin/txtUsername'), 'verginardian')
+WebUI.setText(findTestObject('PageLogin/txtUsername'), GlobalVariable.username)
 
-WebUI.setEncryptedText(findTestObject('PageLogin/txtPassword'), 'Uq7bN5AjeDsbX1dGBtIf4A==')
+WebUI.setText(findTestObject('PageLogin/txtPassword'), GlobalVariable.password)
 
 WebUI.click(findTestObject('PageLogin/btnLogin'))
 
@@ -42,23 +42,28 @@ WebUI.click(findTestObject('Dashboard/Table Data/a_Edit'))
 WebUI.verifyElementText(findTestObject('Dashboard/PageEdit/h2_Edit'), 'Edit')
 
 name = WebUI.getAttribute(findTestObject('Dashboard/PageEdit/txtName'), 'value')
+
 WebUI.verifyEqual(name, 'Vergi Nardian Lufyandi')
 
 company = WebUI.getAttribute(findTestObject('Dashboard/PageEdit/txtCompany'), 'value')
+
 WebUI.verifyEqual(company, 'PT GOOGLE INDONESIA')
 
 email = WebUI.getAttribute(findTestObject('Dashboard/PageEdit/txtEmail'), 'value')
+
 WebUI.verifyEqual(email, 'verginl74@gmail.com')
 
 phone = WebUI.getAttribute(findTestObject('Dashboard/PageEdit/txtPhone'), 'value')
+
 WebUI.verifyEqual(phone, '081380008744')
 
 city = WebUI.getAttribute(findTestObject('Dashboard/PageEdit/txtCity'), 'value')
+
 WebUI.verifyEqual(city, 'Kab Bogor')
 
 address = WebUI.getAttribute(findTestObject('Dashboard/PageEdit/txtAddress'), 'value')
+
 WebUI.verifyEqual(address, 'JL Cikereteg Bogor')
 
-
-
 WebUI.closeBrowser()
+

@@ -22,24 +22,19 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://itera-qa.azurewebsites.net/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.click(findTestObject('Object Repository/HomePage/a_Sign Up'))
 
-WebUI.setText(findTestObject('Object Repository/SignUp/Component/txtFirstname'), RandomStringUtils.randomAlphabetic(
-        5))
+WebUI.setText(findTestObject('Object Repository/SignUp/Component/txtFirstname'), RandomStringUtils.randomAlphabetic(5))
 
-WebUI.setText(findTestObject('Object Repository/SignUp/Component/txtSurname'), RandomStringUtils.randomAlphabetic(
-        7))
+WebUI.setText(findTestObject('Object Repository/SignUp/Component/txtSurname'), RandomStringUtils.randomAlphabetic(7))
 
-WebUI.setText(findTestObject('Object Repository/SignUp/Component/txtEpost'), RandomStringUtils.randomNumeric(
-        5))
+WebUI.setText(findTestObject('Object Repository/SignUp/Component/txtEpost'), RandomStringUtils.randomNumeric(5))
 
-WebUI.setText(findTestObject('Object Repository/SignUp/Component/txtMobile'), RandomStringUtils.randomNumeric(
-        12))
+WebUI.setText(findTestObject('Object Repository/SignUp/Component/txtMobile'), RandomStringUtils.randomNumeric(12))
 
-WebUI.setText(findTestObject('Object Repository/SignUp/Component/txtUsername'), RandomStringUtils.randomAlphabetic(
-        8))
+WebUI.setText(findTestObject('Object Repository/SignUp/Component/txtUsername'), RandomStringUtils.randomAlphabetic(8))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/SignUp/Component/txtPassword'), '8SQVv/p9jVTHLrggi8kCzw==')
 

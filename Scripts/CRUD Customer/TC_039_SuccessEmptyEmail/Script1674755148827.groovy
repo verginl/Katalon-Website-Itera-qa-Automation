@@ -22,13 +22,13 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://itera-qa.azurewebsites.net/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.click(findTestObject('Object Repository/HomePage/a_Login'))
 
-WebUI.setText(findTestObject('PageLogin/txtUsername'), 'verginardian')
+WebUI.setText(findTestObject('PageLogin/txtUsername'), GlobalVariable.username)
 
-WebUI.setEncryptedText(findTestObject('PageLogin/txtPassword'), 'Uq7bN5AjeDsbX1dGBtIf4A==')
+WebUI.setText(findTestObject('PageLogin/txtPassword'), GlobalVariable.password)
 
 WebUI.click(findTestObject('PageLogin/btnLogin'))
 
@@ -38,9 +38,9 @@ def randName = RandomStringUtils.randomAlphabetic(3)
 
 WebUI.setText(findTestObject('Dashboard/PageCreate/txtName'), 'Udin Random' + randName)
 
-WebUI.setText(findTestObject('Dashboard/PageCreate/txtCompany'), 'PT Jaya '+RandomStringUtils.randomAlphabetic(5))
+WebUI.setText(findTestObject('Dashboard/PageCreate/txtCompany'), 'PT Jaya ' + RandomStringUtils.randomAlphabetic(5))
 
-WebUI.setText(findTestObject('Dashboard/PageCreate/txtAddress'), 'Jalan Raya '+RandomStringUtils.randomAlphabetic(15))
+WebUI.setText(findTestObject('Dashboard/PageCreate/txtAddress'), 'Jalan Raya ' + RandomStringUtils.randomAlphabetic(15))
 
 WebUI.setText(findTestObject('Dashboard/PageCreate/txtCity'), 'Kota ' + RandomStringUtils.randomAlphabetic(10))
 

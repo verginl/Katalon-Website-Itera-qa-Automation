@@ -16,7 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 WebUI.openBrowser('')
 
@@ -24,23 +23,25 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.click(findTestObject('Object Repository/HomePage/a_Sign Up'))
+WebUI.click(findTestObject('Object Repository/HomePage/a_Login'))
 
-WebUI.setText(findTestObject('SignUp/Component/txtFirstname'), RandomStringUtils.randomAlphabetic(7))
+WebUI.setText(findTestObject('PageLogin/txtUsername'), GlobalVariable.username)
 
-WebUI.setText(findTestObject('SignUp/Component/txtSurname'), RandomStringUtils.randomAlphabetic(7))
+WebUI.setText(findTestObject('PageLogin/txtPassword'), GlobalVariable.password)
 
-WebUI.setText(findTestObject('Object Repository/SignUp/Component/txtEpost'), RandomStringUtils.randomNumeric(5))
+WebUI.click(findTestObject('PageLogin/btnLogin'))
 
-WebUI.setText(findTestObject('Object Repository/SignUp/Component/txtMobile'), RandomStringUtils.randomNumeric(12))
+WebUI.setText(findTestObject('Dashboard/input_Create New_searching'), 'Udin Random')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/SignUp/Component/txtPassword'), '8SQVv/p9jVTHLrggi8kCzw==')
+WebUI.waitForPageLoad(5)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/SignUp/Component/txtConfirmPassword'), '8SQVv/p9jVTHLrggi8kCzw==')
+WebUI.click(findTestObject('Dashboard/btnSearch'))
 
-WebUI.click(findTestObject('SignUp/Component/btnSubmit'))
+WebUI.click(findTestObject('Dashboard/Table Data/a_Edit'))
 
-WebUI.verifyElementText(findTestObject('SignUp/Label/span_Please enter username'), 'Please enter username')
+WebUI.click(findTestObject('Dashboard/PageEdit/btnSave'))
+
+WebUI.verifyElementText(findTestObject('Dashboard/PageEdit/h2_Edit'), 'Edit')
 
 WebUI.closeBrowser()
 
