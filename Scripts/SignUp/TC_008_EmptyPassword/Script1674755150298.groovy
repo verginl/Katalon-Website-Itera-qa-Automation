@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://itera-qa.azurewebsites.net/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.click(findTestObject('Object Repository/HomePage/a_Sign Up'))
 
@@ -30,11 +30,9 @@ WebUI.setText(findTestObject('SignUp/Component/txtFirstname'), RandomStringUtils
 
 WebUI.setText(findTestObject('SignUp/Component/txtSurname'), RandomStringUtils.randomAlphabetic(7))
 
-WebUI.setText(findTestObject('Object Repository/SignUp/Component/txtEpost'), RandomStringUtils.randomNumeric(
-        5))
+WebUI.setText(findTestObject('Object Repository/SignUp/Component/txtEpost'), RandomStringUtils.randomNumeric(5))
 
-WebUI.setText(findTestObject('Object Repository/SignUp/Component/txtMobile'), RandomStringUtils.randomNumeric(
-        12))
+WebUI.setText(findTestObject('Object Repository/SignUp/Component/txtMobile'), RandomStringUtils.randomNumeric(12))
 
 WebUI.setText(findTestObject('SignUp/Component/txtUsername'), RandomStringUtils.randomAlphabetic(7))
 
